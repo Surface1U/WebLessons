@@ -7,20 +7,29 @@ body{
   padding: 0;
   margin: 0 auto;
   border: 0;
-  background-color: #d8d8d8;
+  background-color: #ffffff;
 }
 
 .logo{
-  width: 1090px;
+  width: 100%;
   padding-top: 2%;
-  margin: 0 auto;
+  margin-left: 0 auto;
+  background-color: white;
+  background-size: cover;
 }
 
-.box1{
-  display: flex;
-  flex-wrap: wrap;
-  max-width: 1800px;
+.logo img{
+  margin-left: 3%;
 }
+
+
+/* .box1{
+  width: 100%;
+  height: 100%;
+  background-image: url('../images/robotgradientintro2.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+} */
 
 .box1 img{
   width: 100%;
@@ -28,266 +37,692 @@ body{
   object-fit: cover;
 }
 
-.innerBubble1{
-  position: absolute;
-  margin-top: 50px;
-  left: 30px;
-  border-color: black;
-  border: 2px;
-}
 
 
-.HumansForSlaves{
-  position: absolute;
-  margin-top: 20%;
-  left: 28%;
-  font-size: 3cm;
-  border-color: rgb(255, 255, 255);
-  border: 2px;
+
+.Naming1{
+  font-family: sans-serif;
+  margin-top: -4%;
   color: white;
+  margin-left: 12%;
+  font-size: 3.5cm;
 }
 
-.future{
-  position: absolute;
-  margin-top: -240px;
-  left: 200px;
-}
-
-.for{
-  position: absolute;
-  margin-top: -370px;
-  left: 450px;
-}
-
-.othertext1{
-  position: absolute;
-  font-family: 'open Sans';
+.Naming12{
+  font-family: sans-serif;
+  margin-top: -3%;
   color: white;
-  font-size: 30px;
-  margin-top: 70%;
-  left: 28%;
+  margin-left: 0%;
+  font-size: 3.5cm;
+}
+
+.SubNaming1{
+  width: 60%;
+  height: 60%;
+  font-size: 1cm;
+}
+
+.bubbles1 img {
+  width: 30%;
+  height: 30%;
+  margin-top: 3%;
+  margin-left: 70%;
+}
+
+.box2 img{
+  width: 25%;
+  height: 25%;
+  margin-top: -30%;
+  transform: rotate(0deg);
 }
 
 
-.test1 {
-  position: absolute;
-  font-size: 3cm;
-  margin-top: 10%;
-  left: 18%;
-  color: white;
-  justify-content: center;
-  min-width: 500px;
+.text1 {
+  margin-top: -20%;
+  margin-left: 13%;
+  font-size: 0.5cm;
+}
+
+.text2{
+  font-weight: bold;
+  margin-top: 1%;
+  font-size: 1.8cm;
+}
+
+.text3 {
+  width: 35%;
+  height: 35%;
+  margin-top: 4%;
+  margin-right: 5%;
+  font-size: 0.5cm;
+}
+
+.btn1 {
+  margin-top: 3%;
+  margin-left: 13%;
 
 }
 
-.test2 {
-  position: absolute;
-  font-size: 3cm;
-  margin-top: 18%;
-  left: 18%;
-  color: white;
-  justify-content: center;
-  min-width: 500px;
-
-}
-
-.dicribe1{
-  position: absolute;
-  font-family: 'open Sans';
-  color: white;
-  font-size: 30px;
+.bubbles2 {
   margin-top: 30%;
-  left: 18%;
-  justify-content: center;
-  min-width: 500px;
-
-}
-
-.dicribe2{
-  position: absolute;
-  font-family: 'open Sans';
-  color: rgb(255, 255, 255);
-  font-size: 30px;
-  margin-top: 33%;
-  left: 18%;
-  justify-content: center;
-  min-width: 500px;
-}
-
-.bubbles2{
-  position: absolute;
-  left: 52.5%;
-  margin-top: 40%;
-}
-
-.bubbles2 img{
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
-.box2{
-  display: flex;
-  flex-wrap: wrap;
-  max-width: 1800px;
-  background-color: rgb(255, 255, 255);
-}
-
-.blueBorder{
-  position: absolute;
-  left: 5%;
-  width: 600px;
-	height: 20px;
-	background: rgb(189, 84, 84);
-  margin-top: 15%;
-}
-
-.HumanBot{
-  position: absolute;
-  font-family: 'open Sans';
-  color: black;
-  font-size: 30px;
-  margin-top: 5%;
-  left: 5%;
-}
-
-.HumanBot2{
-  position: absolute;
-  font-family: 'impact';
-  color: rgb(58, 136, 224);
-  font-size: 70px;
-  margin-top: 10%;
-  left: 5%;
-}
-
-.line1{
-  position: absolute;
-  font-family: 'open Sans';
-  color: black;
-  font-size: 0.6cm;
-  margin-top: 19%;
-  left: 5%;
-}
-
-.line2{
-  position: absolute;
-  font-family: 'open Sans';
-  color: black;
-  font-size: 0.6cm;
-  margin-top: 20.5%;
-  left: 5%;
-}
-
-.line3{
-  position: absolute;
-  font-family: 'open Sans';
-  color: black;
-  font-size: 0.6cm;
-  margin-top: 22%;
-  left: 5%;
-}
-
-.line4{
-  position: absolute;
-  font-family: 'open Sans';
-  color: black;
-  font-size: 0.6cm;
-  margin-top: 23.5%;
-  left: 5%;
-}
-
-.line5{
-  position: absolute;
-  font-family: 'open Sans';
-  color: black;
-  font-size: 0.6cm;
-  margin-top: 25%;
-  left: 5%;
-}
-
-.line6{
-  position: absolute;
-  font-family: 'open Sans';
-  color: black;
-  font-size: 0.6cm;
-  margin-top: 26.5%;
-  left: 5%;
-}
-
-.blue{
-  position: absolute;
-  left: 5%;
-  width: 200px;
-	height: 50px;
-	background: rgb(7, 131, 214);
-  margin-top: 30%;
-}
-
-.bubble4{
-  position: absolute;
-  transform: rotate(180deg);
-  margin-top:45% ;
-  left: -15%;
+  margin-left: -7%;
 }
 
 .box3{
-position: absolute;
-margin-top: 55%;
-width: 100%;
-height: 1080px;
-}
-
-.box3 img{
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  margin-top: -25%;
 }
 
-.pic1 img{
-  width: 50%;
+
+.pictures1{
+  width: 20%;
+  height: 20%;
+  object-fit: cover;
+  margin-left: 70%;
+  margin-top: -30%;
+}
+
+.pictures2{
+  width: 20%;
+  height: 20%;
+  object-fit: cover;
+  margin-left: 47.5%;
+  margin-top: -21%;
+}
+
+.pictures3{
+  width: 20%;
+  height: 20%;
+
+  margin-left: 25%;
+  margin-top: -30%;
+}
+
+.pictures4{
+  width: 20%;
+  height: 20%;
+  object-fit: cover;
+  margin-left: 3%;
+  margin-top: -23%;
+}
+
+.tixt{
+  font-size: 0.56cm;
+  width: 35%;
+  height: 35%;
+  color: white;
+  object-fit: cover;
+  margin-left: 47.5%;
+  margin-top: -1%;
+}
+
+.bubbles3 img {
+  width: 30%;
+  height: 30%;
+  margin-top: -2%;
+  margin-left: 70%;
+}
+
+
+.tixt1{
+  position: relative;
+  margin-top: -26%;
+  margin-left: 13%;
+  font-size: 0.5cm;
+  color: black;
+}
+
+.tixt2 {
+  font-weight: bold;
+  margin-top: 1%;
+  font-size: 1.8cm;
+}
+
+.One {
+  color: rgb(219, 43, 204);
+  font-weight: bold;
+  font-size: 1cm;
+  margin-left: 13%;
+  margin-top: 10%;
+  height: 20%;
+  width: 20%;
+}
+
+.subrobo {
+  color: black;
+  font-weight: normal;
+  margin-top: 12%;
+  font-size: 0.6cm;
+}
+
+
+.Two {
+  color: rgb(219, 43, 204);
+  font-weight: bold;
+  font-size: 1cm;
+  margin-left: 36%;
+  margin-top: -14%;
+  height: 20%;
+  width: 20%;
+}
+
+.subeng {
+  color: black;
+  font-weight: normal;
+  margin-top: 12%;
+  font-size: 0.6cm;
+}
+
+
+.Three {
+  color: rgb(219, 43, 204);
+  font-weight: bold;
+  font-size: 1cm;
+  margin-left: 59%;
+  margin-top: -14%;
+  height: 20%;
+  width: 20%;
+}
+
+.subquote1 {
+  color: white;
+  font-weight: bold;
+  font-size: 1cm;
+  margin-top: 1%;
+  margin-left: 75%;
+}
+
+.subind{
+  color: black;
+  font-weight: normal;
+  margin-top: 12%;
+  font-size: 0.6cm;
+}
+
+
+.bubbles4{
+  width: 28%;
+  height: 28%;
+  margin-top: -60%;
+  margin-left: -2%;
+
+}
+
+
+
+.box4 {
+margin-top: 15%;
+  width: 100%;
   height: 50%;
-  object-fit: cover;
 }
 
-.pic1{
+.blueShit {
+  margin-top: 10%;
+}
+
+.quotes1 {
+  font-size: 10cm;
+  color: orange;
+  margin-top: -66%;
+  margin-left: 39%;
+}
+
+.quote1{
+  font-size: 0.66cm;
+  color: white;
+  margin-left: 40%;
+  margin-top: -40%;
+  width: 53%;
+  height: 53%;
+}
+
+
+.car {
+  width: 46%;
+  height: 46%;
+  margin-top: -7%;
+  margin-left: 10%;
+}
+
+.blue {
   position: absolute;
-  margin-top:95% ;
-  left: 5%;
+  object-fit: cover;
+	width: 30.5px;
+	height: 150px;
+  left: 23%;
+  margin-top: -2%;
+	background: aqua;
+}
+
+.blue2{
+  width: 30.5px;
+	height: 150px;
+  margin-left: 65%;
+  margin-top: -10%;
+	background: rgb(0, 0, 0);
+}
+
+.closecar {
+  width: 24%;
+  height: 24%;
+  margin-top: -7%;
+  margin-left: 25%;
+}
+
+.name2323 {
+  color: white;
+  font-weight: bold;
+  font-size: 1.5cm;
+  margin-top: -25%;
+  margin-left: 60%;
+}
+
+.subcars {
+  color: black;
+  font-weight: normal;
+  margin-top: 3%;
+  margin-left: 60%;
+  font-size: 0.6cm;
+  width: 30%;
+  height: 30%;
 }
 
 
-.pic2 img{
+.box666{
+  position: absolute;
+  object-fit: cover;
+	width: 100%;
+	height: 100%;
+  margin-top: 10%;
+	background: rgb(255, 255, 255);
+}
+
+
+.bubbles333 {
+  object-fit: cover;
+  width: 30%;
+  height: 30%;
+  margin-left: 70%;
+}
+
+
+.aiiii {
+  margin-top: -26%;
+  margin-left: 13%;
+  font-size: 0.5cm;
+  color: black;
+}
+
+.RAI {
+  margin-top: 1%;
+  margin-left: 13%;
+  font-size: 1.7cm;
+  font-weight: bold;
+}
+
+.find {
+  color: rgb(219, 43, 204);
+  font-weight: bold;
+  font-size: 1cm;
+  margin-left: 13%;
+  margin-top: 5%;
+  height: 30%;
+  width: 30%;
+}
+
+
+
+
+.subFind {
+  font-size: 0.7cm;
+  font-style: initial;
+  height: 33%;
+  width: 33%;
+  margin-left: 13%;
+  margin-top: -10%;
+}
+
+.unt5 {
+  height: 34%;
+  width: 34%;
+  margin-left: 50%;
+  margin-top: -25%;
+}
+
+.unt4 {
+  height: 20%;
+  width: 20%;
+  margin-left: 65%;
+  margin-top: -20%;
+  border: 10px;
+
+}
+
+.saf {
+  font-size: 0.7cm;
+  font-style: initial;
+}
+
+.btn1 {
+  margin-left: 200px;
+  margin-right: 20px;
+  position: relative;
+  background-image: none;
+  color: #111111 !important;
+  background-color: #f9fcf2 !important;
+  letter-spacing: 1px;
+  font-size: 0.875rem;
+  line-height: 1.4;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  display: table;
+  cursor: pointer;
+  font-weight: inherit;
+  font-family: inherit;
+  text-decoration: none;
+  border: 0 none transparent;
+  outline-width: 0;
+  font-style: initial;
+  white-space: nowrap;
+  user-select: none;
+  text-align: center;
+  padding: 10px 30px;
+  border-radius: 0;
+  box-sizing: border-box;
+  pointer-events: initial;
+}
+
+.lastbox {
+  width: 100%;
+  height: 500px;
+  background-color: #ffffff92;
+}
+
+.lastbox img {
+  margin-top: 30%;
   width: 100%;
   height: 100%;
+}
+
+
+.unt7 {
+  width: 23%;
+  width: 23%;
+  margin-top: -66%;
+  margin-left: 66%;
+}
+
+.xs {
+  width: 20%;
+  width: 20%;
+  margin-top: -40%;
+  margin-left: 63%;
+}
+
+.as {
+  width: 20%;
+  width: 20%;
+  margin-top: -40%;
+  margin-left: 40%;
+}
+
+.one {
+  width: 15%;
+  width: 15%;
+  margin-top: -40%;
+  margin-left: 22%;
+}
+
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,500,300,700);
+
+* {
+  font-family: Open Sans;
+}
+
+section {
+  width: 100%;
+  display: inline-block;
+  background: #333;
+  height: 50vh;
+  text-align: center;
+  font-size: 22px;
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+.footer-distributed{
+  position: absolute;
+	background: #666;
+  margin-top: 20%;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+	font: bold 16px sans-serif;
+	padding: 55px 50px;
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right{
+	display: inline-block;
+	vertical-align: top;
+}
+
+/* Footer left */
+
+.footer-distributed .footer-left{
+	width: 40%;
+}
+
+/* The company logo */
+
+.footer-distributed h3{
+	color:  #ffffff;
+	font: normal 36px 'Open Sans', cursive;
+	margin: 0;
+}
+
+.footer-distributed h3 span{
+	color:  lightseagreen;
+}
+
+/* Footer links */
+
+.footer-distributed .footer-links{
+	color:  #ffffff;
+	margin: 20px 0 12px;
+	padding: 0;
+}
+
+.footer-distributed .footer-links a{
+	display:inline-block;
+	line-height: 1.8;
+  font-weight:400;
+	text-decoration: none;
+	color:  inherit;
+}
+
+.footer-distributed .footer-company-name{
+	color:  #222;
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0;
+}
+
+/* Footer Center */
+
+.footer-distributed .footer-center{
+	width: 35%;
+}
+
+.footer-distributed .footer-center i{
+	background-color:  #33383b;
+	color: #ffffff;
+	font-size: 25px;
+	width: 38px;
+	height: 38px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 42px;
+	margin: 10px 15px;
+	vertical-align: middle;
+}
+
+.footer-distributed .footer-center i.fa-envelope{
+	font-size: 17px;
+	line-height: 38px;
+}
+
+.footer-distributed .footer-center p{
+	display: inline-block;
+	color: #ffffff;
+  font-weight:400;
+	vertical-align: middle;
+	margin:0;
+}
+
+.footer-distributed .footer-center p span{
+	display:block;
+	font-weight: normal;
+	font-size:14px;
+	line-height:2;
+}
+
+.footer-distributed .footer-center p a{
+	color:  lightseagreen;
+	text-decoration: none;;
+}
+
+.footer-distributed .footer-links a:before {
+  content: "|";
+  font-weight:300;
+  font-size: 20px;
+  left: 0;
+  color: #fff;
+  display: inline-block;
+  padding-right: 5px;
+}
+
+.footer-distributed .footer-links .link-1:before {
+  content: none;
+}
+
+/* Footer Right */
+
+.footer-distributed .footer-right{
+	width: 20%;
+}
+
+.footer-distributed .footer-company-about{
+	line-height: 20px;
+	color:  #92999f;
+	font-size: 13px;
+	font-weight: normal;
+	margin: 0;
+}
+
+.footer-distributed .footer-company-about span{
+	display: block;
+	color:  #ffffff;
+	font-size: 14px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.footer-distributed .footer-icons{
+	margin-top: 25px;
+}
+
+.footer-distributed .footer-icons a{
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	cursor: pointer;
+	background-color:  #33383b;
+	border-radius: 2px;
+
+	font-size: 20px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 35px;
+
+	margin-right: 3px;
+	margin-bottom: 5px;
+}
+
+/* If you don't want the footer to be responsive, remove these media queries */
+
+@media (max-width: 880px) {
+
+	.footer-distributed{
+		font: bold 14px sans-serif;
+	}
+
+	.footer-distributed .footer-left,
+	.footer-distributed .footer-center,
+	.footer-distributed .footer-right{
+		display: block;
+		width: 100%;
+		margin-bottom: 40px;
+		text-align: center;
+	}
+
+	.footer-distributed .footer-center i{
+		margin-left: 0;
+	}
+
+}
+
+
+.footer-distributed {
+  margin-top: 20%;
+  background-color: pink;
+}
+
+.name {
+  font-weight: bold;
+  color: white;
+  width: 40%;
+  height: 40%;
+  margin-top: -40%;
+  margin-left: 20%;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 2.4cm;
   object-fit: cover;
 }
 
-.pic2{
-  position: absolute;
-  margin-top:85% ;
-  left: 30%;
+.subNN {
+  font-weight: lighter;
+  font-size: 0.7cm;
 }
 
-.pic3 img{
-  width: 60%;
-  height: 60%;
-  object-fit: cover;
+ul {
+  list-style-type: none;
+  margin: 0;
+  margin-top: -3%;
+  margin-left: 70%;
+  padding: 0;
+  overflow: hidden;
+  background-color: #ffffff;
 }
 
-.pic3{
-  position: absolute;
-  margin-top:95% ;
-  left: 56%;
+li {
+  float: left;
 }
 
-.pic4 img{
-  width: 79%;
-  height: 79%;
-  object-fit: cover;
+li a {
+  display: block;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 }
 
-.pic4{
-  position: absolute;
-  margin-top:95% ;
-  left: 80%;
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #b19d9d;
 }
